@@ -1,0 +1,17 @@
+# robots.txt for giplindia.in
+# Grover Infomedia Pvt. Ltd. (GIPL India)
+
+User-agent: *
+Allow: /
+
+# Disallow development, sensitive, and backend-only paths
+Disallow: /dev/
+Disallow: /.env
+Disallow: /config/
+Disallow: /credentials/
+Disallow: /database/
+Disallow: /*.sql$
+Disallow: /*.bak$
+
+# Sitemap location
+Sitemap: https://www.giplindia.in/sitemap.xml
