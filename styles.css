@@ -1117,7 +1117,7 @@ img {
   flex-shrink: 0;
 }
 
-/* ---------- Clientele Logo Card (Uniform 7-Client Grid) ---------- */
+/* ---------- Clientele Logo Card (Uniform 6-Client Grid) ---------- */
 .client-logo-card {
   height: 6rem; /* h-24 */
   padding: 0.875rem 1rem;
@@ -1136,5 +1136,11 @@ img {
   border-color: rgba(15, 76, 129, 0.5);
   box-shadow: var(--shadow-lg);
   transform: translateY(-3px);
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+  }
 }
 
